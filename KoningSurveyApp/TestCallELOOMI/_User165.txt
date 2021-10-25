@@ -1,0 +1,46 @@
+﻿ {
+            "id": 165,
+            "first_name": "Bart",
+            "last_name": "Gielkens",
+            "employee_id": null,
+            "email": "b.gielkens@konings.be",
+            "username": "bgielkens",
+            "activated_at": "2021-08-02 10:56:00",
+            "last_login": "2021-10-19 10:07:24",
+            "gender": null,
+            "birthday": null,
+            "department_id": [
+                23
+            ],
+            "user_permission": "user",
+            "start_of_employment_at": "2021-08-02 08:31:11",
+            "end_of_employment_at": null,
+            "personal_email": null,
+            "title": "",
+            "phone": "",
+            "phone_code": 0,
+            "mobile_phone": null,
+            "language": "nl",
+            "access_groups": [
+                {
+                    "id": 3,
+                    "name": "user"
+                }
+            ],
+            "generic_role": "",
+            "country": "",
+            "location": "",
+            "timezone": "Europe/Brussels",
+            "legal": "",
+            "level": 0,
+            "initials": "",
+            "sub_company": null,
+            "skill_level": null,
+            "salary_id": null,
+            "team_id": [
+                2
+            ],
+            "direct_manager_ids": [
+                113
+            ]
+        }
