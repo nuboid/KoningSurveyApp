@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KoningsSurveyApp.App.MainPage">
+
+    <StackLayout Margin="10" Orientation="Vertical">
+        
+        <Grid HeightRequest="80">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label 
+                TranslationY="5"
+                Grid.Column="0" FontSize="20" LineBreakMode="TailTruncation" Text="PoNumber" TextColor="Black"/>
+
+            <Entry Grid.Column="1" Text="12345" FontSize="22"/>
+        </Grid>
+        <Button Text="Get Survey" 
+                Clicked="Button_Clicked"
+                BackgroundColor="Red"  TextColor="White" 
+                HorizontalOptions="FillAndExpand" />
+        <ScrollView>
+            <StackLayout x:Name="_sl">
+              
+            </StackLayout>
+        </ScrollView>
+
+        <Button Text="Submit Survey" BackgroundColor="Green"  TextColor="White" 
+                HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+
+</ContentPage>

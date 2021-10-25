@@ -3,9 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoningSurveyApp.Contracts", "KoningSurveyApp.Contracts\KoningSurveyApp.Contracts.csproj", "{91ED1C6B-AD5E-4C90-A0DB-64BF8E766019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoningSurveyApp.Contracts", "KoningSurveyApp.Contracts\KoningSurveyApp.Contracts.csproj", "{91ED1C6B-AD5E-4C90-A0DB-64BF8E766019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoningsSurveyApp.APIHost", "KoningsSurveyApp.APIHost\KoningsSurveyApp.APIHost.csproj", "{898C8E6F-93CC-4E89-BF29-3A09A9653CC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoningsSurveyApp.APIHost", "KoningsSurveyApp.APIHost\KoningsSurveyApp.APIHost.csproj", "{898C8E6F-93CC-4E89-BF29-3A09A9653CC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoningSurveyApp.TestClient", "KoningSurveyApp.TestClient\KoningSurveyApp.TestClient.csproj", "{9842D1E0-6504-4535-B17F-2BE7F8E586EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoningsSurveyApp.App.Android", "KoningsSurveyApp.App\KoningsSurveyApp.App.Android\KoningsSurveyApp.App.Android.csproj", "{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoningsSurveyApp.App", "KoningsSurveyApp.App\KoningsSurveyApp.App\KoningsSurveyApp.App.csproj", "{BAFFEF0D-9C49-42E5-8B54-2A6BE43ABF4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43E85AEC-A0B5-47E8-855D-62CEB08ED01C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoningsSurveyApp.EfDBContext", "KoningsSurveyApp.EfDBContext\KoningsSurveyApp.EfDBContext.csproj", "{7969AF14-1A06-4BD0-AC9A-498336D6DFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEF", "TestEF\TestEF.csproj", "{AC3BD831-ACB2-46A6-9A6D-3FF72C8B2F6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +36,28 @@ Global
 		{898C8E6F-93CC-4E89-BF29-3A09A9653CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898C8E6F-93CC-4E89-BF29-3A09A9653CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898C8E6F-93CC-4E89-BF29-3A09A9653CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9842D1E0-6504-4535-B17F-2BE7F8E586EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9842D1E0-6504-4535-B17F-2BE7F8E586EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9842D1E0-6504-4535-B17F-2BE7F8E586EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9842D1E0-6504-4535-B17F-2BE7F8E586EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4FB32B-4B79-45F8-BD48-A18454CFEBAA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BAFFEF0D-9C49-42E5-8B54-2A6BE43ABF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFFEF0D-9C49-42E5-8B54-2A6BE43ABF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFFEF0D-9C49-42E5-8B54-2A6BE43ABF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFFEF0D-9C49-42E5-8B54-2A6BE43ABF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7969AF14-1A06-4BD0-AC9A-498336D6DFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7969AF14-1A06-4BD0-AC9A-498336D6DFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7969AF14-1A06-4BD0-AC9A-498336D6DFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7969AF14-1A06-4BD0-AC9A-498336D6DFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3BD831-ACB2-46A6-9A6D-3FF72C8B2F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3BD831-ACB2-46A6-9A6D-3FF72C8B2F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3BD831-ACB2-46A6-9A6D-3FF72C8B2F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3BD831-ACB2-46A6-9A6D-3FF72C8B2F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
